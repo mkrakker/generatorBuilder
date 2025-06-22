@@ -1,0 +1,30 @@
+{
+  "name": "generator-builder",
+  "version": "1.0.0",
+  "description": "A TypeScript utility for building and composing generators with dependencies",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:types": "tsc --noEmit",
+    "lint": "biome check .",
+    "format": "biome format --write ."
+  },
+  "keywords": [
+    "generator",
+    "builder",
+    "typescript",
+    "combinations"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "2.0.4",
+    "@types/jest": "29.5.14",
+    "asserttt": "1.0.1",
+    "jest": "29.1.2",
+    "ts-jest": "29.1.2",
+    "typescript": "5.8.3"
+  }
+}

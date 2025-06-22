@@ -1,0 +1,73 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+lerna-debug.log
+.npm
+.yarn-integrity
+.pnp.*
+.yarn/
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+dist/
+*.js.map
+*.d.ts.map
+
+# Build output
+dist/
+build/
+out/
+lib/
+
+# Jest
+coverage/
+.jest/
+jest-report/
+test-report.xml
+junit.xml
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+.ionide
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+.cache/
+.temp/
+.tmp/
+*.swp
+*.swo
+.idea/
+*.sublime-project
+*.sublime-workspace
